@@ -1,0 +1,2 @@
+TODO: Remove the NetVRk prefix from all files that need it, remove any further references to the Voxel plugin.
+TODO: Create a simple demonstration map of the Creative Editor system. Do it how I would do it.
