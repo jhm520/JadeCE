@@ -8,6 +8,78 @@
 			"Name": "JadeCE",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+        {
+			"Name": "GASUtility",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkCoreUtility",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkCreativeEditorUtility",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkFileTransferSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkLandParcelSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkSaveGameUtility",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkSurfaceGridSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "NetVRkP4Voxel",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
 		}
 	],
 	"Plugins": [
@@ -17,6 +89,18 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+        {
+			"Name": "SelectionSystemPlugin",
+			"Enabled": true
 		}
 	]
 }
